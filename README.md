@@ -1,12 +1,15 @@
 
-In order to access the Get the token sending a post request to the URL:
+In order to access the API's, we need a valid json web token that wis provided via post request to the URL:
 https://localhost:8080/login
 
-Once in hand, add it to the http header request using postman.
+Once in hand, add it to the http header request using a tool like postman.
+
+File details:
 
 package.json: This file will have all nodejs dependencies module for this project.
 
 model/Profile.js: This file will use to create profile player schema and model.
+model/Team.js: This file will use to create team schema and model.
 
 app.js: This file will use to create nodejs application server and routes url.
 
