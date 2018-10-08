@@ -2,7 +2,7 @@
 
 - [Project Title](#project-title)
 	- [Getting started](#getting-started)
-	- [Meta](#meta)
+	- [Prerequisites](#prerequesites)
 	- [API overview](#api-overview)
 
 
