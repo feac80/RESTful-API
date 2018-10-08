@@ -1,29 +1,15 @@
 
-In order to access the API's, we need a valid json web token that wis provided via post request to the URL:
-https://localhost:8080/login
-
-Once in hand, add it to the http header request using a tool like postman.
-
-File details:
-
-package.json: This file will have all nodejs dependencies module for this project.
-
-model/Profile.js: This file will use to create profile player schema and model.
-model/Team.js: This file will use to create team schema and model.
-
-app.js: This file will use to create nodejs application server and routes url.
-
-node_modules folder: This folder will contains all nodejs packages.
-
-The Node js Rest API details are as follows:
-
 ### API Resources
 
-  - [GET /magazines](#get-magazines)
-  - [GET /magazines/[id]](#get-magazinesid)
-  - [POST /magazines/[id]/articles](#post-magazinesidarticles)
+  - [POST /api/v1/users/register](#post-api/v1/users/register)
+  - [POST /api/v1/users/login](#get-magazinesid)
+  - [POST /api/v1/contacts](#post-magazinesidarticles)
 
-### GET /magazines
+### POST /api/v1/users/register
+
+### POST /api/v1/users/login
+
+### POST /api/v1/contacts
 
 
 
