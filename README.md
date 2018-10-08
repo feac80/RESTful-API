@@ -20,6 +20,7 @@
 https://addressbook-frank.herokuapp.com/api/v1/users/register
  
 * **Data Params**
+ <_when making a post request the body payload request should look like the one below _>
 ```
    {
     "name":"Maria Dolores",
@@ -27,6 +28,26 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
     "password":"1234567Tt@"
      }
 ```     
+
+Rules:
+name: Optional
+      Maxlength: 40 characters
+  },
+email: Is required
+valid format:  It expects at least 
+               1 special character !#$@%&?
+	       1 letter
+	       1 digit
+	       the length should be between 6-15 characters. 
+	       The sequence of the characters is not important.
+	       Matches: 1234567Tt@
+               Non-Matches
+               Tt122 | 1tdfy34564646T*
+
+
+
+     : 
+password: Is required
   <_If making a post request, what should the body payload look like? URL Params rules apply here too._>
 
 * **Success Response:**
