@@ -20,11 +20,13 @@
 https://addressbook-frank.herokuapp.com/api/v1/users/register
  
 * **Data Params**
-     {
+```
+   {
     "name":"Maria Dolores",
     "email":"maria3@hotmail.com",
     "password":"1234567Tt@"
      }
+```     
   <_If making a post request, what should the body payload look like? URL Params rules apply here too._>
 
 * **Success Response:**
