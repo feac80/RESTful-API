@@ -4,7 +4,7 @@
 	- [Getting started](#getting-started)
 	- [Prerequisites](#prerequesites)
 	- [API overview](#api-overview)
-	- [Running Test](#running-test)
+	- [Running Test](#running-the-test)
 
 
 
@@ -77,10 +77,6 @@ The Node js RESTful API details are as follows:
 
 ## API overview
 
-- [POST /api/v1/users/register](#post-/api/v1/users/register)
-- [POST /api/v1/users/login](#post-/api/v1/users/login)
-- [POST /api/v1/contacts](#post-/api/v1/contacts)
-
 ## POST /api/v1/users/register
 
  **Description: This endpoind is handling the user registration.**
@@ -102,7 +98,7 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 
 | Field | Description |
 | --- | --- |
-| name | It should be Optional with no more than 40 characters length.
+| name | It should be Optional with no more than 40 characters length.|
 | email |It should have a valid email string with no more than two domain parts e.g. example.com |
 | password | Is required, It expects at least 1 special character !#$@%&? and 1 letter and 1 digit and the length should be between 6-15 characters. The sequence of the characters is not important. Matches: 1234567Tt@. Non-Matches Tt122  | 
 
@@ -223,7 +219,6 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 * **Sample Call:**
 
     
-------------------------------------------------------------
 
 
 
