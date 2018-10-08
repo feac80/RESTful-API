@@ -30,6 +30,7 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 ```     
 
 Rules:
+
 | Field | Description |
 | --- | --- |
 | email | Is required, It expects at least 1 special character !#$@%&? |
