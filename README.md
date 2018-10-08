@@ -1,12 +1,75 @@
 <!-- TOC depthFrom:1 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Crossref REST API](#crossref-rest-api)
-	- [Preamble](#preamble)
+- [Project Title](#project-title)
+	- [Getting started](#getting-started)
 	- [Meta](#meta)
 	- [API overview](#api-overview)
 
 
 <!-- /TOC -->
+
+
+
+
+# Project Title
+
+Address Book application
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+
+
+### Prerequisites
+
+What things you need to install the software and how to install them
+
+```
+run npm install
+```
+
+## Running the tests
+
+
+```
+npm run test
+```
+
+```
+npm run test-mocha
+```
+
+Expected result:
+
+Creation of a new user
+
+
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+## Files structure
+
+package.json: This file will have all nodejs dependencies module for this example.
+
+config/mongodb.js: This file will use for databases connection parameters for Mongodb
+
+config/firebase.js: This file will use for databases connection parameters for firebase
+
+model/users.js: This file will use to create user schema and model.
+
+server.js: This file will use to create nodejs application server and routes url.
+routes/api/contacts: This file will handle the end points request for contacts.
+
+routes/api/users:This file will handle the request to the endpoint request for users.
+
+node_modules folder: This folder will contains all nodejs packages.
+
+The Node js RESTful API details are as follows:
+
 
 
 
@@ -160,99 +223,10 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 
     
 ------------------------------------------------------------
-# Crossref REST API
 
 
 
 
-# Project Title
-
-Address Book application
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-run npm install
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-
-
-package.json: This file will have all nodejs dependencies module for this example.
-
-config/mongodb.js: This file will use for databases connection parameters for Mongodb
-
-config/firebase.js: This file will use for databases connection parameters for firebase
-
-model/users.js: This file will use to create user schema and model.
-
-server.js: This file will use to create nodejs application server and routes url.
-routes/api/contacts: This file will handle the end points request for contacts.
-
-routes/api/users:This file will handle the end point request for users.
-
-node_modules folder: This folder will contains all nodejs packages.
-
-The Node js RESTful API details are as follows:
-
-
-
-
---------------------------------------------------------
 
 
 
