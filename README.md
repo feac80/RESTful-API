@@ -123,8 +123,8 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 # **Rules:**
 
 | Field | Is required | Description |
-| --- | --- | |
-| name | yes |  It should contain an string with max 30 characters length |
+| --- | --- | --- |
+| name | yes | It should contain an string with max 30 characters length |
 | surname | yes| It should be an string with max 30 characters length |
 | phone | yes  | It should be a number with max 30 characters length |
 | address |yes  | It should be an string with max 30 characters lengt|
