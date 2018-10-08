@@ -1,5 +1,5 @@
 
-### API Resources
+## API Resources
 
   - [POST /api/v1/users/register](#post-/api/v1/users/register)
   - [POST /api/v1/users/login](#post-/api/v1/users/login)
@@ -154,31 +154,11 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-[a variety of tools and APIs](https://www.crossref.org/services/metadata-delivery/)
 
 package.json: This file will have all nodejs dependencies module for this example.
 
@@ -198,14 +178,6 @@ node_modules folder: This folder will contains all nodejs packages.
 The Node js RESTful API details are as follows:
 
 
-| resource      | description                       |
-|:--------------|:----------------------------------|
-| `/works`      | returns a list of all works (journal articles, conference proceedings, books, components, etc), 20 per page
-| `/funders`    | returns a list of all funders in the [Funder Registry](https://github.com/Crossref/open-funder-registry)
-| `/members` | returns a list of all Crossref members (mostly publishers) |
-| `/types`      | returns a list of valid work types |
-| `/licenses`  | return a list of licenses applied to works in Crossref metadata |
-| `/journals` | return a list of journals in the Crossref database |
 
 
 | Command | Description |
