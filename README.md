@@ -34,8 +34,7 @@ Rules:
 | --- | --- |
 | email | Is required, It expects at least 1 special character !#$@%&? |
 | git diff | Show file differences that haven't been staged |
-| field name |       |
-|------------|-------|
+
 
 name: Optional
       Maxlength: 40 characters
