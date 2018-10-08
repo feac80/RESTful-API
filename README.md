@@ -23,24 +23,30 @@ Address Book Application
 
 ### Prerequisites
 
-Since we are using two DB enviroments in firebase, it is required to generate two service accounts and download them into the root directory.
+Since we are using two DB enviroments in firebase and mongodb, it is required to generate two service accounts and download them into the root directory.
 
-In addition, It is also required to have the following enviroment variables:
+Go to [firebase](https://console.firebase.google.com/)
+
+and set up the following env variables accordingly.
+
+FIREBASE_DEV=<_create a firebase db for development/production env_>
+
+FIREBASE_TEST=<_create a firebase db for test env_>
+
+
+In addition, It is also required to have the mongo databases
+
+Go to [mlab](https://mlab.com/home)
 
 MONGOURI_DEV =<_create a mongo db for development/production_>
 
 MONGOURI_TEST= <_create a mongo db for test_>
 
-Go to mlab(url)
+and don't forget the secret key ;-)
 
 SERCRET_OR_KEY=here we go...
 
-FIREBASE_DEV=https://addressbook-b04d0.firebaseio.com
 
-FIREBASE_TEST=https://addressbook-test-9f9b7.firebaseio.com/
-```
-run npm install
-```
 
 ### Files Structure
 ![file-structure](https://user-images.githubusercontent.com/28504085/46636347-010d2780-cb58-11e8-8fef-d9ccd525b435.jpg)
