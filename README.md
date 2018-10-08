@@ -123,6 +123,7 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 }`
 
 * **Sample Call:**
+![register](https://user-images.githubusercontent.com/28504085/46623182-19b41800-cb2d-11e8-999f-f1a27c2c895e.jpg)
 
 ### POST /api/v1/users/login
 
@@ -172,6 +173,9 @@ https://addressbook-frank.herokuapp.com/api/v1/users/login
 
 * **Sample Call:**
 
+![login](https://user-images.githubusercontent.com/28504085/46623181-191b8180-cb2d-11e8-8dfb-acdd208b2644.jpg)
+
+
 ### POST /api/v1/contacts
 * **Description: This endpoint will handle the creation of a new contact.
  
@@ -218,6 +222,7 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 
 * **Sample Call:**
 
+![contact](https://user-images.githubusercontent.com/28504085/46623180-191b8180-cb2d-11e8-8cc9-05a8a550dcd5.jpg)
     
 
 
