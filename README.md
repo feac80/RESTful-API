@@ -15,7 +15,7 @@
 
 Address Book Application
 
-## Getting Started
+### Getting Started
 
 	1.- Clone App from repository 
 	2.- 
@@ -25,13 +25,24 @@ Address Book Application
 
 Since we are using two DB enviroments in firebase, it is required to generate two service accounts and download them into the root directory.
 
-enviroment variables
+In addition, It is also required to have the following enviroment variables:
 
+MONGOURI_DEV =<_create a mongo db for development/production_>
+
+MONGOURI_TEST= <_create a mongo db for test_>
+
+Go to mlab(url)
+
+SERCRET_OR_KEY=here we go...
+
+FIREBASE_DEV=https://addressbook-b04d0.firebaseio.com
+
+FIREBASE_TEST=https://addressbook-test-9f9b7.firebaseio.com/
 ```
 run npm install
 ```
 
-## Files Structure
+### Files Structure
 ![file-structure](https://user-images.githubusercontent.com/28504085/46636347-010d2780-cb58-11e8-8fef-d9ccd525b435.jpg)
 
 package.json: This file will have all nodejs dependencies module for this example.
@@ -50,6 +61,7 @@ routes/api/users:This file will handle the request to the endpoint request for u
 
 node_modules folder: This folder will contains all nodejs packages.
 
+## Running the application in dev/prod
 
 ## Running the tests
 
