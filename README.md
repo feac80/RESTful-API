@@ -1,9 +1,9 @@
 
 ## API Resources
 
-  - [POST-/api/v1/users/register](#post-/api/v1/users/register)
-  - [POST /api/v1/users/login] (#post-/api/v1/users/login)
-  - [POST /api/v1/contacts] (#post-/api/v1/contacts)
+  - [POST /api/v1/users/register](#post-/api/v1/users/register)
+  - [POST /api/v1/users/login](#post-/api/v1/users/login)
+  - [POST /api/v1/contacts](#post-/api/v1/contacts)
 
 ## POST /api/v1/users/register
 
