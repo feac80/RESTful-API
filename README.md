@@ -34,11 +34,13 @@ enviroment variables
 run npm install
 ```
 
-## 
+## File Structure
+
+
 
 ## Running the tests
 
-1.- Run the npm commant:
+1.- Run from the terminal the npm command:
 ```
 npm run test
 ```
@@ -57,7 +59,7 @@ npm run test-mocha
 
 Expected result:
 
-![register](https://user-images.githubusercontent.com/28504085/46635657-77f4f100-cb55-11e8-983d-7dd4f9301729.jpg)
+![checking](https://user-images.githubusercontent.com/28504085/46636223-9360fb80-cb57-11e8-89e5-694c62b27f91.jpg)
 
 
 
