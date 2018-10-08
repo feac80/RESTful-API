@@ -33,11 +33,19 @@ run npm install
 
 ## Running the tests
 
-
+1.- Run from the terminal
 ```
 npm run test
 ```
+and you will notify as follow:
+```
+> adressbook@1.0.0 test C:\Users\Home\Desktop\Test-project
+> SET NODE_ENV=test && node server.js
 
+The server is up and running in port:3000
+Connected to test  database
+```
+2.- Open a new terminal and execute the command
 ```
 npm run test-mocha
 ```
