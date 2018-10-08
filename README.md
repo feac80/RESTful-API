@@ -4,7 +4,7 @@
 	- [Getting started](#getting-started)
 	- [Prerequisites](#prerequesites)
 	- [API overview](#api-overview)
-	- [Running Test](#running-the-test)
+	- [Running Test](#running-the-tests)
 
 
 
