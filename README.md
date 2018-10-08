@@ -147,7 +147,7 @@ https://addressbook-frank.herokuapp.com/api/v1/users/login
 
 | Field | Description |
 | --- | --- |
-| email | |Is required |
+| email | Is required |
 | password |Is required | 
 
 
@@ -177,13 +177,13 @@ https://addressbook-frank.herokuapp.com/api/v1/users/login
 
 
 ### POST /api/v1/contacts
-* **Description: This endpoint will handle the creation of a new contact.
+* **Description: This endpoint will handle the creation of a new contacts.
  
 *  **URL **
-https://addressbook-frank.herokuapp.com/api/v1/users/register
+https://addressbook-frank.herokuapp.com/api/v1/users/contacts
  
 * **Data Params**
- when making a post request the body payload request should look like showed below 
+ when making a post request the body payload request should look like: 
 ```
       {
       "name":"Eduardo",
