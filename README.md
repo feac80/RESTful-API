@@ -33,28 +33,22 @@ Rules:
 
 | Field | Description |
 | --- | --- |
-| email | Is required, It expects at least 1 special character !#$@%&? and 1 letter and 1 digit and the length should be between 6-15 characters. The sequence of the characters is not important. Matches: 1234567Tt@. Non-Matches Tt122 | 1tdfy34564646T* | |
-| git diff | Show file differences that haven't been staged |
+| name | It is Optional with no more than 40 characters length.
+| email | |
+| password | Is required, It expects at least 1 special character !#$@%&? and 1 letter and 1 digit and the length should be between 6-15 characters. The sequence of the characters is not important. Matches: 1234567Tt@. Non-Matches Tt122  | 
 
-
-name: Optional
-      Maxlength: 40 characters
-  },
-email: 
-valid format:  
-
-
-
-     : 
-password: Is required
-  <_If making a post request, what should the body payload look like? URL Params rules apply here too._>
 
 * **Success Response:**
   
   <_What should the status code be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
 
-  * **Code:** 200 <br />
-    **Content:** `{ id : 12 }`
+  * **Code:** 201 <br />
+    **Content:** `{
+    "message": "Success: Created User",
+    "name": "Maria Dolores",
+    "email": "maria4@hotmail.com",
+    "createdDate": "2018-10-08T13:13:33.757Z"
+}`
  
 * **Error Response:**
 
