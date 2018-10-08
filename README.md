@@ -13,7 +13,7 @@
 https://addressbook-frank.herokuapp.com/api/v1/users/register
  
  **Data Params**
- when making a post request the body payload request should look like the one below 
+ when a post request is made the body payload should look like: 
 ```
    {
     "name":"Maria Dolores",
@@ -21,13 +21,13 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
     "password":"1234567Tt@"
      }
 ```     
-
+must have two domain parts e.g. example.com
 ## **Rules:**
 
 | Field | Description |
 | --- | --- |
-| name | It is Optional with no more than 40 characters length.
-| email |It should be an email with a valid format and not more that 2 domains (e.g.   |
+| name | It should be Optional with no more than 40 characters length.
+| email |It should have a valid email string with no more than two domain parts e.g. example.com |
 | password | Is required, It expects at least 1 special character !#$@%&? and 1 letter and 1 digit and the length should be between 6-15 characters. The sequence of the characters is not important. Matches: 1234567Tt@. Non-Matches Tt122  | 
 
 
