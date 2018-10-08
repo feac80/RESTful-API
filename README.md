@@ -4,7 +4,7 @@
 	- [Getting started](#getting-started)
 	- [Prerequisites](#prerequesites)
 	- [API overview](#api-overview)
-	- [POST /api/v1/users/register](#post-/api/v1/users/register)
+	- [POST](#post-/api/v1/users/register)
   	- [POST /api/v1/users/login](#post-/api/v1/users/login)
   	- [POST /api/v1/contacts](#post-/api/v1/contacts)
 
@@ -16,7 +16,7 @@
 
 # Project Title
 
-Address Book application
+Address Book Application
 
 ## Getting Started
 
@@ -75,13 +75,11 @@ The Node js RESTful API details are as follows:
 
 
 
-
-
 ## API overview
 
-  - [POST /api/v1/users/register](#post-/api/v1/users/register)
-  - [POST /api/v1/users/login](#post-/api/v1/users/login)
-  - [POST /api/v1/contacts](#post-/api/v1/contacts)
+- [POST /api/v1/users/register](#post-/api/v1/users/register)
+- [POST /api/v1/users/login](#post-/api/v1/users/login)
+- [POST /api/v1/contacts](#post-/api/v1/contacts)
 
 ## POST /api/v1/users/register
 
