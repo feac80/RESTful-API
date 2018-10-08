@@ -54,24 +54,13 @@ must have two domain parts e.g. example.com
 
 ### POST /api/v1/users/login
 
-* **URL**
-
-  /api/v1/users/login
-
-* **Method:**
-  
-  | `POST` |
-  
-* **Data structure:**
-
- | `json` |
-  
-  
+ **Description: This endpoind is handling the user login.
+ 
 *  **URL **
 https://addressbook-frank.herokuapp.com/api/v1/users/login
  
 * **Data Params**
- when making a post request the body payload request should look like the one below 
+ When making a post request the body payload should look like:  
 ```
   {
      
@@ -81,7 +70,7 @@ https://addressbook-frank.herokuapp.com/api/v1/users/login
   }
 ```     
 
-Rules:
+## ** Rules: **
 
 | Field | Description |
 | --- | --- |
@@ -93,7 +82,7 @@ Rules:
 
   **Code:** 200 <br />
     **Content:** `{
-`{  "message": "Success: Authenticaded User",
+    "message": "Success: Authenticaded User",
     "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjViYmIwOWNhN2FhMjc1MDAxNTVjMWMxYSIsIm5hbWUiOiJNYXJpYSBEb2xvcmVzIiwiZW1haWwiOiJtYXJpYTNAaG90bWFpbC5jb20iLCJpYXQiOjE1MzkwMDU4NTQsImV4cCI6MTUzOTAwOTQ1NH0.8EL4BxFum0B2RKz36UFvCB-PnJXlgDLDcxAnhRlETok"
 }`
  
@@ -131,7 +120,7 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 	
 ```     
 
-Rules:
+# **Rules:**
 
 | Field | Is required | Description |
 | --- | --- | |
@@ -145,12 +134,7 @@ Rules:
 * **Success Response:**
 
   **Code:** 201 <br />
-    **Content:** `{
-    "message": "Success: Created User",
-    "name": "Maria Dolores",
-    "email": "maria4@hotmail.com",
-    "createdDate": "2018-10-08T13:13:33.757Z"
-}`
+    **Content:** 
  
   **Error Response:**
 
