@@ -30,22 +30,18 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 ```     
 
 Rules:
+| Field | Description |
+| --- | --- |
+| email | Is required, It expects at least 1 special character !#$@%&? and 1 letter and 1 digit and the length should be between 6-15 characters. The sequence of the characters is not important. Matches: 1234567Tt@. Non-Matches Tt122 | 1tdfy34564646T* |
+| git diff | Show file differences that haven't been staged |
 | field name |       |
 |------------|-------|
 
 name: Optional
       Maxlength: 40 characters
   },
-email: Is required
-valid format:  It expects at least 
-               1 special character !#$@%&?
-	       1 letter
-	       1 digit
-	       the length should be between 6-15 characters. 
-	       The sequence of the characters is not important.
-	       Matches: 1234567Tt@
-               Non-Matches
-               Tt122 | 1tdfy34564646T*
+email: 
+valid format:  
 
 
 
