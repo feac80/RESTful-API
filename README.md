@@ -12,7 +12,7 @@
   **URL **
 https://addressbook-frank.herokuapp.com/api/v1/users/register
  
- **Data Params**
+ **Data Params:**
  when a post request is made the body payload should look like: 
 ```
    {
@@ -21,7 +21,7 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
     "password":"1234567Tt@"
      }
 ```     
-must have two domain parts e.g. example.com
+
 ## **Rules:**
 
 | Field | Description |
