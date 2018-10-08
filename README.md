@@ -1,5 +1,17 @@
+<!-- TOC depthFrom:1 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-## API Resources
+- [Crossref REST API](#crossref-rest-api)
+	- [Preamble](#preamble)
+	- [Meta](#meta)
+	- [API overview](#api-overview)
+
+
+<!-- /TOC -->
+
+
+
+
+## API overview
 
   - [POST /api/v1/users/register](#post-/api/v1/users/register)
   - [POST /api/v1/users/login](#post-/api/v1/users/login)
@@ -150,25 +162,7 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 ------------------------------------------------------------
 # Crossref REST API
 
-<!-- TOC depthFrom:1 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Crossref REST API](#crossref-rest-api)
-	- [Preamble](#preamble)
-	- [Meta](#meta)
-	- [API overview](#api-overview)
-	- [Result types](#result-types)
-	- [Resource components](#resource-components)
-	- [Parameters](#parameters)
-	- [Queries](#queries)
-	- [Field Queries](#field-queries)
-	- [Sorting](#sorting)
-	- [Facet counts](#facet-counts)
-	- [Filter names](#filter-names)
-	- [Result controls](#result-controls)
-	- [API versioning](#api-versioning)
-	- [Documentation history](#documentation-history)
-
-<!-- /TOC -->
 
 
 # Project Title
