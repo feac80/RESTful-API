@@ -39,10 +39,8 @@ Rules:
 
 
 * **Success Response:**
-  
-  <_What should the status code be on success and is there any returned data? This is useful when people need to to know what their callbacks should expect!_>
 
-  * **Code:** 201 <br />
+  **Code:** 201 <br />
     **Content:** `{
     "message": "Success: Created User",
     "name": "Maria Dolores",
@@ -50,17 +48,16 @@ Rules:
     "createdDate": "2018-10-08T13:13:33.757Z"
 }`
  
-* **Error Response:**
+  **Error Response:**
 
   <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
 
-  * **Code:** 401 UNAUTHORIZED <br />
-    **Content:** `{ error : "Log in" }`
-
-  OR
-
   * **Code:** 422 UNPROCESSABLE ENTRY <br />
-    **Content:** `{ error : "Email Invalid" }`
+    **Content:** `{
+    "message": "Something went wrong",
+    "error": "ValidationError",
+    "errormessage": "\"email\" must be a valid email"
+}`
 
 * **Sample Call:**
 
