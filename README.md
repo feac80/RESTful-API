@@ -7,25 +7,12 @@
 
 ### POST /api/v1/users/register
 
-* **Description: Th
-
-* **URL**
-
-  /api/v1/users/register
-
-* **Method:**
+ **Description: This endpoind is handling the user registration.
   
-  | `POST` |
-  
-* **Data structure:**
-
- | `json` |
-  
-  
-*  **URL **
+  **URL **
 https://addressbook-frank.herokuapp.com/api/v1/users/register
  
-* **Data Params**
+ **Data Params**
  when making a post request the body payload request should look like the one below 
 ```
    {
@@ -35,12 +22,12 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
      }
 ```     
 
-Rules:
+## **Rules:**
 
 | Field | Description |
 | --- | --- |
 | name | It is Optional with no more than 40 characters length.
-| email | |
+| email |It should be an email with a valid format and not more that 2 domains (e.g.   |
 | password | Is required, It expects at least 1 special character !#$@%&? and 1 letter and 1 digit and the length should be between 6-15 characters. The sequence of the characters is not important. Matches: 1234567Tt@. Non-Matches Tt122  | 
 
 
