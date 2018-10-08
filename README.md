@@ -167,6 +167,10 @@ The Node js RESTful API details are as follows:
 | `/journals` | return a list of journals in the Crossref database |
 
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 
 
 
