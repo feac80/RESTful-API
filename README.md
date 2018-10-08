@@ -20,24 +20,29 @@ Address Book Application
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
+	1.- Clone App from repository 
+	2.- 
 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Since we are using two DB enviroments in firebase, it is required to generate two service accounts and download them into the root directory.
+
+enviroment variables
 
 ```
 run npm install
 ```
 
+## 
+
 ## Running the tests
 
-1.- Run from the terminal
+1.- Run the npm commant:
 ```
 npm run test
 ```
-and you will notify as follow:
+and you will be notified as follow
 ```
 > adressbook@1.0.0 test C:\Users\Home\Desktop\Test-project
 > SET NODE_ENV=test && node server.js
@@ -52,7 +57,7 @@ npm run test-mocha
 
 Expected result:
 
-Creation of a new user
+![register](https://user-images.githubusercontent.com/28504085/46635657-77f4f100-cb55-11e8-983d-7dd4f9301729.jpg)
 
 
 
