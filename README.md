@@ -7,20 +7,26 @@
 
 ### POST /api/v1/users/register
 
+* **Description: Th
+
 * **URL**
 
-  <_/api/v1/users/register_>
+  /api/v1/users/register
 
 * **Method:**
   
-  <_| `POST` |_>
+  | `POST` |
+  
+* **Data structure:**
 
+ | `json` |
+  
   
 *  **URL **
 https://addressbook-frank.herokuapp.com/api/v1/users/register
  
 * **Data Params**
- <_when making a post request the body payload request should look like the one below _>
+ when making a post request the body payload request should look like the one below 
 ```
    {
     "name":"Maria Dolores",
@@ -50,8 +56,6 @@ Rules:
  
   **Error Response:**
 
-  <_Most endpoints will have many ways they can fail. From unauthorized access, to wrongful parameters etc. All of those should be liste d here. It might seem repetitive, but it helps prevent assumptions from being made where they should be._>
-
   * **Code:** 422 UNPROCESSABLE ENTRY <br />
     **Content:** `{
     "message": "Something went wrong",
@@ -61,69 +65,116 @@ Rules:
 
 * **Sample Call:**
 
-  <_Just a sample call to your endpoint in a runnable format ($.ajax call or a curl request) - this makes life easier and more predictable._> 
-
-
 ### POST /api/v1/users/login
 
+* **URL**
+
+  /api/v1/users/login
+
+* **Method:**
+  
+  | `POST` |
+  
+* **Data structure:**
+
+ | `json` |
+  
+  
+*  **URL **
+https://addressbook-frank.herokuapp.com/api/v1/users/login
+ 
+* **Data Params**
+ when making a post request the body payload request should look like the one below 
+```
+  {
+     
+    "email":"maria3@hotmail.com",
+    "password":"1234567Tt@"
+      
+  }
+```     
+
+Rules:
+
+| Field | Description |
+| --- | --- |
+| email | |Is required |
+| password |Is required | 
+
+
+* **Success Response:**
+
+  **Code:** 200 <br />
+    **Content:** `{
+`{  "message": "Success: Authenticaded User",
+    "token": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjViYmIwOWNhN2FhMjc1MDAxNTVjMWMxYSIsIm5hbWUiOiJNYXJpYSBEb2xvcmVzIiwiZW1haWwiOiJtYXJpYTNAaG90bWFpbC5jb20iLCJpYXQiOjE1MzkwMDU4NTQsImV4cCI6MTUzOTAwOTQ1NH0.8EL4BxFum0B2RKz36UFvCB-PnJXlgDLDcxAnhRlETok"
+}`
+ 
+  **Error Response:**
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** {
+    "message": "Something went wrong ",
+    "errormessage": "Auth Failed"
+}
+  OR
+
+  * **Code:** 422 UNPROCESSABLE ENTRY <br />
+    **Content:** `{ "message": "Something went wrong", "error": "ValidationError", "errormessage": "\"email\" must be a valid email"}`
+
+
+* **Sample Call:**
+
 ### POST /api/v1/contacts
-
-
-
-### GET /magazinesid
-
-Route	          Method	        Type	   Posted JSON                     	      Description
-=============================================================================================================================
-/profile	       GET	       JSON	                –	                            Get all the profile data
-/profile/{id}	   GET	       JSON	               –	                            Get a single profile player data
-/profile	      POST	       JSON	    { "firstName": "Jose", "lastName": "None", "age": 45,"team": "Real Madrid", "position": "Neutral"}	Insert new player record into database
-/profile	    PUT	     JSON	{ "firstName": "Jose", "lastName": "None", "age": 46,"team": "Real Madrid", "position": "Neutral"}	Update player record into database
-/profile	   DELETE	 JSON	{"id" : "5b926de21967921079483288"}	Delete particular player record from database
-
-
-Response body:
-
-    {
-        "metadata": {
-            "resultset": {
-                "count": 123,
-                "offset": 0,
-                "limit": 10
-            }
-        },
-        "results": [
-            {
-                "id": "1234",
-                "type": "magazine",
-                "title": "Public Water Systems",
-                "tags": [
-                    {"id": "125", "name": "Environment"},
-                    {"id": "834", "name": "Water Quality"}
-                ],
-                "created": "1231621302"
-            },
-            {
-                "id": 2351,
-                "type": "magazine",
-                "title": "Public Schools",
-                "tags": [
-                    {"id": "125", "name": "Elementary"},
-                    {"id": "834", "name": "Charter Schools"}
-                ],
-                "created": "126251302"
-            }
-            {
-                "id": 2351,
-                "type": "magazine",
-                "title": "Public Schools",
-                "tags": [
-                    {"id": "125", "name": "Pre-school"},
-                ],
-                "created": "126251302"
-            }
-        ]
-    }
+* **Description: This endpoint will handle the creation of a new contact.
+ 
+*  **URL **
+https://addressbook-frank.herokuapp.com/api/v1/users/register
+ 
+* **Data Params**
+ when making a post request the body payload request should look like showed below 
+```
+      {
+      "name":"Eduardo",
+      "surname":"De la Cruz",
+      "phone":"654654",
+      "address":"Tenerife Calle 5 ",
+      "email": "feac45@hotmail.com"
     
+    }
+	
+```     
+
+Rules:
+
+| Field | Is required | Description |
+| --- | --- | |
+| name | yes |  It should contain an string with max 30 characters length |
+| surname | yes| It should be an string with max 30 characters length |
+| phone | yes  | It should be a number with max 30 characters length |
+| address |yes  | It should be an string with max 30 characters lengt|
+| email  | yes  | It should be a valid email format | 
+
+
+* **Success Response:**
+
+  **Code:** 201 <br />
+    **Content:** `{
+    "message": "Success: Created User",
+    "name": "Maria Dolores",
+    "email": "maria4@hotmail.com",
+    "createdDate": "2018-10-08T13:13:33.757Z"
+}`
+ 
+  **Error Response:**
+
+  * **Code:** 500 UNPROCESSABLE ENTRY <br />
+    **Content:** `{
+    "message": "Something went wrong",
+    "errormessage": "jwt expired"
+}`
+
+* **Sample Call:**
+
     
 ------------------------------------------------------------
 # Crossref REST API
@@ -207,11 +258,7 @@ Give an example
 
 Add additional notes about how to deploy this on a live system
 
-## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## License
 
@@ -237,12 +284,6 @@ node_modules folder: This folder will contains all nodejs packages.
 The Node js RESTful API details are as follows:
 
 
-
-
-| Command | Description |
-| --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
 
 
 --------------------------------------------------------
