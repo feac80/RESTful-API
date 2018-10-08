@@ -17,6 +17,18 @@ node_modules folder: This folder will contains all nodejs packages.
 
 The Node js Rest API details are as follows:
 
+### API Resources
+
+  - [GET /magazines](#get-magazines)
+  - [GET /magazines/[id]](#get-magazinesid)
+  - [POST /magazines/[id]/articles](#post-magazinesidarticles)
+
+### GET /magazines
+
+
+
+### GET /magazinesid
+
 Route	          Method	        Type	   Posted JSON                     	      Description
 =============================================================================================================================
 /profile	       GET	       JSON	                –	                            Get all the profile data
