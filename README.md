@@ -4,9 +4,9 @@
 	- [Getting started](#getting-started)
 	- [Prerequisites](#prerequesites)
 	- [API overview](#api-overview)
-	- [POST](#post-/api/v1/users/register)
-  	- [POST /api/v1/users/login](#post-/api/v1/users/login)
-  	- [POST /api/v1/contacts](#post-/api/v1/contacts)
+	- [Running Test](#running-test)
+
+
 
 
 <!-- /TOC -->
