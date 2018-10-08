@@ -30,6 +30,9 @@ https://addressbook-frank.herokuapp.com/api/v1/users/register
 ```     
 
 Rules:
+| field name |       |
+|------------|-------|
+
 name: Optional
       Maxlength: 40 characters
   },
