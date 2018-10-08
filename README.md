@@ -5,9 +5,9 @@
   - [POST /api/v1/users/login] (#post-/api/v1/users/login)
   - [POST /api/v1/contacts] (#post-/api/v1/contacts)
 
-### POST /api/v1/users/register
+## POST /api/v1/users/register
 
- **Description: This endpoind is handling the user registration.
+ **Description: This endpoind is handling the user registration.**
   
   **URL **
 https://addressbook-frank.herokuapp.com/api/v1/users/register
