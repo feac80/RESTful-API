@@ -96,12 +96,9 @@ Expected result:
 ![checking](https://user-images.githubusercontent.com/28504085/46636223-9360fb80-cb57-11e8-89e5-694c62b27f91.jpg)
 
 
-
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 
 ## API overview
 
@@ -238,11 +235,18 @@ https://addressbook-frank.herokuapp.com/api/v1/users/contacts
 * **Success Response:**
 
   **Code:** 201 <br />
-    **Content:** 
+    **Content:** `{
+    "message": "Success: Created Contact.",
+    "name": "Antonio Jose",
+    "surname": "Camacho",
+    "phone": "654656544",
+    "address": "Barcelona Calle 5 ",
+    "email": "Barcelona Calle 5 "
+}`
  
   **Error Response:**
 
-  * **Code:** 500 UNPROCESSABLE ENTRY <br />
+  * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{
     "message": "Something went wrong",
     "errormessage": "jwt expired"
