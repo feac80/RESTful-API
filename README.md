@@ -2,9 +2,11 @@
 
 - [RESTful ADDRESS BOOK API APPLICATION](#restful-address-book-api-app)
 	- [Getting started](#getting-started)
-	- [Prerequisites](#prerequesites)
+	- [Prerequisites](#prerequisites)
 	- [API overview](#api-overview)
-	- [Running Test](#running-the-tests)
+	- [Files Structure](#files-structure)
+	- [Running the application in dev](#running-the-application-in-dev)
+	- [Running Tests](#running-the-tests)
 
 <!-- /TOC -->
 
