@@ -1,19 +1,16 @@
 <!-- TOC depthFrom:1 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Project Title](#project-title)
+- [ADDRESS BOOK APPLICATION](#address-book-application)
 	- [Getting started](#getting-started)
 	- [Prerequisites](#prerequesites)
 	- [API overview](#api-overview)
 	- [Running Test](#running-the-tests)
 
-
-
-
 <!-- /TOC -->
 
-# Project Title
+# ADDRESS BOOK APPLICATION
 
-Address Book Application
+Description:The addess book backend API app  will be used by users to register new users and manage their contacts.
 
 ### Getting Started
 
