@@ -46,6 +46,7 @@ and don't forget the secret key ;-)
 	SERCRET_OR_KEY=here we go...
 
 ### Files Structure
+
 ![file-structure](https://user-images.githubusercontent.com/28504085/46636347-010d2780-cb58-11e8-8fef-d9ccd525b435.jpg)
 
 package.json: This file will have all nodejs dependencies module for this example.
@@ -65,6 +66,8 @@ routes/api/users:This file will handle the request to the endpoint for users.
 node_modules folder: This folder will contains all nodejs packages.
 
 serviceAcountKey/serviceAcountKey: these files are used to authenticate in the firebase database.
+
+.env: This file contains all the enviroment variables mentioned in prerequisites section.
 
 ## Running the application in dev
 
