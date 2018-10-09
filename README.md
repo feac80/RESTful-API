@@ -10,40 +10,38 @@
 
 # RESTful ADDRESS BOOK API APP
 
-Description:The addess book backend API app  will be used by users to register new users and manage their contacts.
+The RESTful address book API app will be used to register new users and manage their contacts.
 
 ### Getting Started
 
-	1.- Clone App from repository 
-	2.- 
+	1.- Clone the App from GitHub repository 
+	2.- Run the command ```npm install ```
 
 
 ### Prerequisites
 
 Since we are using two DB enviroments in firebase and mongodb, it is required to generate two service accounts and download them into the root directory.
 
-Go to [firebase](https://console.firebase.google.com/)
+	Navigate to [firebase](https://console.firebase.google.com/)
 
 and set up the following env variables accordingly.
 
-FIREBASE_DEV=<_create a firebase db for development/production env_>
+	FIREBASE_DEV=<_create a firebase db for development/production env_>
 
-FIREBASE_TEST=<_create a firebase db for test env_>
+	FIREBASE_TEST=<_create a firebase db for test env_>
 
 
 In addition, It is also required to have the mongo databases
 
-Go to [mlab](https://mlab.com/home)
+	Navigate to [mlab](https://mlab.com/home)
 
-MONGOURI_DEV =<_create a mongo db for development/production_>
+	MONGOURI_DEV =<_create a mongo db for development/production_>
 
-MONGOURI_TEST= <_create a mongo db for test_>
+	MONGOURI_TEST= <_create a mongo db for test_>
 
 and don't forget the secret key ;-)
 
-SERCRET_OR_KEY=here we go...
-
-
+	SERCRET_OR_KEY=here we go...
 
 ### Files Structure
 ![file-structure](https://user-images.githubusercontent.com/28504085/46636347-010d2780-cb58-11e8-8fef-d9ccd525b435.jpg)
@@ -64,6 +62,8 @@ routes/api/users:This file will handle the request to the endpoint for users.
 
 node_modules folder: This folder will contains all nodejs packages.
 
+serviceAcountKey/serviceAcountKey: these files are used to authenticate in the firebase database.
+
 ## Running the application in dev
 
 ```
@@ -76,7 +76,7 @@ npm run dev
 ```
 npm run test
 ```
-and you will be notified as follow
+if there no erros (hopefully!!) you will be informed as follow:
 ```
 > adressbook@1.0.0 test C:\Users\Home\Desktop\Test-project
 > SET NODE_ENV=test && node server.js
