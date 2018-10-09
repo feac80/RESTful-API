@@ -58,13 +58,17 @@ model/users.js: This file will use to create user schema and model.
 
 server.js: This file will use to create nodejs application server and routes url.
 
-routes/api/contacts: This file will handle the end points request for contacts.
+routes/api/contacts: This file will handle endpoints http request for contacts.
 
-routes/api/users:This file will handle the request to the endpoint request for users.
+routes/api/users:This file will handle the request to the endpoint for users.
 
 node_modules folder: This folder will contains all nodejs packages.
 
-## Running the application in dev/prod
+## Running the application in dev
+
+```
+npm run dev
+```
 
 ## Running the tests
 
@@ -80,7 +84,7 @@ and you will be notified as follow
 The server is up and running in port:3000
 Connected to test  database
 ```
-2.- Open a new terminal and execute the command
+2.- Open a new terminal and execute the command:
 ```
 npm run test-mocha
 ```
@@ -165,7 +169,7 @@ https://addressbook-frank.herokuapp.com/api/v1/users/login
   }
 ```     
 
-## ** Rules: **
+## **Rules:**
 
 | Field | Description |
 | --- | --- |
