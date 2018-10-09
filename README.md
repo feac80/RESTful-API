@@ -1,6 +1,6 @@
 <!-- TOC depthFrom:1 depthTo:2 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [ADDRESS BOOK APPLICATION](#address-book-application)
+- [RESTful ADDRESS BOOK API APPLICATION](#restful-address-book-api-app)
 	- [Getting started](#getting-started)
 	- [Prerequisites](#prerequesites)
 	- [API overview](#api-overview)
@@ -8,7 +8,7 @@
 
 <!-- /TOC -->
 
-# ADDRESS BOOK APPLICATION
+# RESTful ADDRESS BOOK API APP
 
 Description:The addess book backend API app  will be used by users to register new users and manage their contacts.
 
